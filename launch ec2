@@ -1,0 +1,1 @@
+aws ec2 run-instances  --image-id ami-0dfcfc0990d15ba72 --count 1 --instance-type t2.micro --key-name windows14 --security-groups sg-0062da4ef0feb61f4--subnet-id subnet-05f53355ecb58cd23 --region ap-south-1
